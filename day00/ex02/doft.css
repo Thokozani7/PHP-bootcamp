@@ -1,10 +1,153 @@
-*{
-    background-color: white;
+body {
+    background-color: grey;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 10px;
 }
 .container {
-    width: 1200px;
-    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
 }
-.nav {
-    border: 1px black;
+.nav{
+    /* border: 1px solid black; */
+    background-color: rgb(144, 145, 146);
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 9px 10px 8px black;
+}
+.right {
+    background-color: rgb(144, 145, 146);
+    border-radius: 10px;
+    box-shadow: 9px 10px 8px black;
+    margin-top: 30px;
+    margin-right: -250px;
+    width: 150px;
+    height: 470px;
+    float: right;
+}
+.middle {
+    background-color: rgb(144, 145, 146);
+    border-radius: 10px;
+    box-shadow: 9px 10px 8px black;
+    margin-top: 30px;
+    margin-right: -70px;
+    padding-left: 430px;
+    width: 500px;
+    height: 600px;
+    float: right;
+}
+.left {
+    background-color: rgb(144, 145, 146);
+    border-radius: 10px;
+    box-shadow: 9px 10px 8px black;
+    margin-top: 30px;
+    margin-left: 55px;
+    width: 150px;
+    height: 470px;
+}
+
+/* for the top navbar */
+.day_42 {
+    height: 120px;
+    width: 420px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.lop {
+    height: 150px;
+    width: 270px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 21px;
+}
+.close {
+    float: right;
+    margin-right: 10px;
+    margin-top: 120px;
+}
+.reload {
+    float: right;
+    margin-right: -17px;
+    margin-top: 15px;
+    height: 20px;
+    width: 20px;
+    /* margin-right: 25px;
+    margin-top: 20px; */
+}
+/* for the left navbar */
+.arrow {
+    height: 70px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.border {
+    border: 5px solid red;
+    border-radius: 6px;
+}
+.book {
+    height: 110px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.towel {
+    height: 70px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.brick {
+    height: 110px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.bree {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90px;
+    margin-left: auto;
+    margin-right: 52px;
+
+}
+.bree img{
+    width: 45px;
+}
+.cluster {
+    height: 580px;
+    margin-right: 10px;
+    padding-left: 430px;
+    margin-top: 10px;
+    width: 910px;
+    float: right;
+}
+.end {
+    position: relative;
+    background-color:rgb(157, 250, 128);
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-bottom: 50px;
+    padding-right: 0px;
+    margin-left: -60px;
+    margin-top: 50px;
+    height: 110px;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 9px 10px 8px black;
+    font-size: 20px;
+}
+.tex {
+    position: absolute;
+    font-family: sans-serif;
+    margin-top: -80px;
+}
+span {
+    text-shadow: 5px 6px  4px rgb(235, 84, 47);
+}
+input {
+    width: 400px;
+    height: 20px;
+    box-shadow: 0px 0px 0px black;
+}
+button {
+    height: 25px;
+    font-size: 15px;
 }
