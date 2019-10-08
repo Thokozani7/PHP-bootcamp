@@ -1,0 +1,10 @@
+*{
+    background-color: white;
+}
+.container {
+    width: 1200px;
+    border: 1px solid black;
+}
+.nav {
+    border: 1px black;
+}
