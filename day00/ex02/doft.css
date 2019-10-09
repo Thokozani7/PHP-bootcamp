@@ -95,16 +95,17 @@ body {
     margin-left: 35px;
     margin-top: 15px;
 }
-.brick {
+/* .brick {
     height: 110px;
     margin-left: 25px;
     margin-top: 15px;
-}
+} */
 .bree {
     height: 70px;
     width: 120px;
     background-image: url(resources/brick.jpg);
     background-repeat: repeat;
+    margin-left: 15px
 }
 .bree img{
     width: 45px;
@@ -137,7 +138,7 @@ body {
     font-family: sans-serif;
     margin-top: -80px;
 }
-span {
+.word {
     text-shadow: 5px 6px  4px rgb(235, 84, 47);
 }
 input {
