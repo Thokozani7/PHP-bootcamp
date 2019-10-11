@@ -1,21 +1,18 @@
 #!/usr/bin/php
 <?php
-$string;
-$str_arr;
 $i = 1;
 $j = 0;
-
-$len = count($string);
-while ($i < $len)
+while ($i < $argc)
 {
     $string = explode(" ", $argv[$i]);
     foreach($string as $value)
     {
-    $str_arr[$j] = $value;
-    $j++;
+        $str_arr[$j] = $value;
+        $j++;
     }
     $i++;
 }
-
-echo $str_arr[2];
+sort($str_arr);
+foreach($str_arr as $value)
+    echo $value."\n";
 ?>
