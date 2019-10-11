@@ -11,7 +11,9 @@
        $k = 0;
        while ($i < $ac)
        {
-           $first = explode(" ", $av[$i]);
+           $first = trim($av[$i]);
+           $first = preg_replace('/\s+/', ' ', $first);
+           $first = explode(" ", $first);
             foreach($first as $value)
                 $arr[$j++] = $value;
             $i++;
@@ -37,5 +39,7 @@
        foreach($other as $value)
             echo "$value\n";
    }
+
+   if ($argc > 1)
    ssap2($argc, $argv); 
 ?>

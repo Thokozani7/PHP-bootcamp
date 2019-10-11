@@ -17,5 +17,6 @@
             $i++;
         }
         sort($newArray);
+        return $newArray;
     }
 ?>

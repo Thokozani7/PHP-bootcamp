@@ -2,17 +2,22 @@
 <?php
 $i = 1;
 $j = 0;
-while ($i < $argc)
+if($argc != 1)
 {
-    $string = explode(" ", $argv[$i]);
-    foreach($string as $value)
+    while ($i < $argc)
     {
-        $str_arr[$j] = $value;
-        $j++;
+        $string = trim($argv[$i]);
+        $string = preg_replace('/\s+/', ' ', $string);
+        $string = explode(" ", $string);
+        foreach($string as $value)
+        {
+            $str_arr[$j] = $value;
+            $j++;
+        }
+        $i++;
     }
-    $i++;
+    sort($str_arr);
+    foreach($str_arr as $value)
+        echo $value."\n";
 }
-sort($str_arr);
-foreach($str_arr as $value)
-    echo $value."\n";
 ?>

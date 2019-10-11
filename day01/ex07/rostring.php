@@ -4,7 +4,6 @@ $i = 1;
 $string = trim($argv[1]);
 $string = preg_replace('/\s+/', ' ', $string);
 $string = explode(" ", $string);
-// echo $string[0];
 while($string[$i] )
 {
     echo $string[$i];
